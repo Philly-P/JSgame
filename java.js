@@ -8,9 +8,27 @@ function play(choice)
     let tie = sessionStorage.getItem("tieCount");
     if(wins == null)
     {
-
-    }else if(loss == null)
+        wins = 0;
+    }else{
+        wins = wins;
+    };
+     if(loss == null)
     {
-        
+        loss = 0;
+    }else {
+        loss = loss;
+    };
+    if(tie = null)
+    {
+        tie = 0;
+    }else{
+        tie = tie;
+    };
+    //find src img before writing this text
+    if(computerChoice === 1 && playerChoice ==="rock"){
+        document.getElementById('o-img').src ="";
+        document.getElementById('result').innerHTML = "Rock ties with rock. No winner";
     }
+    
+    
 }
