@@ -1,0 +1,47 @@
+/* skip this line*/
+:root{
+    background-color: black;
+}
+
+.div1{
+width: 800px;
+height: 500px;
+margin-left: auto;
+margin-right: auto;
+margin-top: auto;
+background-color: azure;
+border-radius: 5px;
+border-color: aqua;
+}
+
+.div2{
+width: 400px;
+height: 400px;
+margin-left: auto;
+display: flex;
+margin-top: auto;
+width: 400px;
+height: 400px;
+background-color: azure;
+border-radius: 5px;
+border-color: aqua;
+
+}
+
+.div3{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    margin-right: auto;
+    margin-top: auto;
+    background-color: azure;
+    border-radius: 5px;
+    border-color: aqua;
+}
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    width: 50%;
+}
