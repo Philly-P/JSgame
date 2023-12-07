@@ -10,25 +10,28 @@
 <!--Div for options for the user-->
 <main class="container">
 <div class="div2">
-    <h1 class="h1">Players Choice</h1>
-<img src="svg/icons8-paper-50.png" width="50" height="50" class="img">
-<img src="svg/icons8-rock-64.png" width="50" height="50" class="img">
-<img src="svg/icons8-scissors-50.png" width="50" height="50" class="img">
+    <h1 class="h1">Player Choice</h1>
+<button id="paper" onclick="play('paper')"><img src="svg/icons8-paper-50.png"></button>
+<button id="rock" onclick="play('rock')"><img src="svg/icons8-rock-64.png"></button>
+<button id="scissors" onclick="play('scissors')"><img src="svg/icons8-scissors-50.png"></button>
 </div>
 <!--Div for what opponent chooses-->
 <div class="div3">
 <h1 class="h1">Opponents choice</h1>
+<img id="o-img" class="img2">
 </div>
 <!--Keep track of score and display of what chosen-->
 </main>
 <div class="div1">
-<h1 class="h2"> Wins </h1>
-<h1 class="h2">Losses</h1>
-<h1 class="h2">Ties</h1>
+    
+<h1 class="h2"> Wins <span id="wins">0</span></h1>
+<h1 class="h2">Losses <span id="loss">0</span></h1>
+<h1 class="h2">Ties <span id="tie">0</span></h1>
+<h3 id="result"></h3>
 
 
 </div>
-
+<script src="java.js"></script>
 
 </body>
 

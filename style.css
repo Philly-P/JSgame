@@ -15,6 +15,7 @@
     font-size: 24px;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   }
 
@@ -25,15 +26,43 @@
     margin-bottom: 100px;
     margin-left: 100px;
     margin-right: 100px;
+    
   }
+.img2{
+  width: 100px;
+  height: 100px;
+  margin-top: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+h3{
+  margin-top: 300px;
+  margin-left: auto;
+  margin-right: 200px;
+}
+
+span{
+  font-size: 24px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
 
 .img{
-    width: 75px;
-    height: 75px;
-    margin-top: auto;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: auto;
+    width: 50px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+  }
+
+  button{
+    width: 100px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
   }
 
 .div1{
@@ -44,8 +73,7 @@ margin-left: auto;
 margin-right: auto;
 margin-bottom: 100px;
 background-color: azure;
-border-radius: 5%;
-border-color: rgb(2, 54, 9);
+border: 5px solid rgb(20, 6, 146);
 }
 
 .div2{
@@ -54,11 +82,8 @@ height: 400px;
 margin-left: auto;
 display: flex;
 margin-top: auto;
-width: 400px;
-height: 400px;
 background-color: azure;
-border-radius: 5px;
-border-color: aqua;
+border: 5px solid rgb(20, 6, 146);
 
 }
 
@@ -69,8 +94,7 @@ border-color: aqua;
     margin-right: auto;
     margin-top: auto;
     background-color: azure;
-    border-radius: 5px;
-    border-color: aqua;
+    border: 5px solid rgb(20, 6, 146);
 }
 
 .center{
